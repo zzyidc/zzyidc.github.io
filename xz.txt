@@ -6,3 +6,6 @@ https://software-download.microsoft.com/db/Win7_Pro_SP1_Chinese(Simplified)_x64.
 https://software-download.microsoft.com/db/Win7_Pro_SP1_Chinese(Simplified)_x32.iso?t=f2821f64-2b57-4a1f-ad37-be910ab031f4&e=1512197555&h=89db5b6228cc0902012e15049e9eb8a4
 
 https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/zh-CN/ProfessionalRetail.img
+
+photoshop cs6 64 zh
+http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS3.exe
