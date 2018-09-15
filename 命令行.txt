@@ -1,0 +1,46 @@
+更新
+
+apt-get clean && apt-get update && apt-get upgrade -y && apt-get dist-upgrade -y 
+
+命令讲解： 
+apt-get clean    //清除缓存索引 
+apt-get update    //更新索引文件 
+apt-get upgrade    //更新实际的软件包文件 
+apt-get dist-upgrade    //根据依赖关系更新
+--------------------------------------------------------------------------
+apt-get install //源地址安装
+apt-get install -f //安装未成功 可删除存
+
+deb安装出现依赖问题可以执行：
+apt --fix-broken install
+
+apt-get autoremove ssh 卸载命令
+dpkg -i s.deb //安装软件包
+gdebi /root/s.deb  //安装软件包并可自动安装依赖项
+systemctl start lighttpd //启动web服务
+systemctl restart lighttpd //重启web服务
+systemctl enable lighttpd //随系统启动web服务（可能要下面的命令-安装目录运行）
+/lib/systemd/systemd-sysv-install enable lighttpd //随系统启动web服务
+which php-cgi //查找服务文件目录
+------------------------------------------------------------------------
+lighttpd//支持php的配置
+php.ini配置cgi.fix_pathinfo=1
+lighttpd-enable-mod fastcgi
+lighttpd-enable-mod fastcgi-php
+service lighttpd force-reload
+----------------------------------------------------------------------
+mariadb //数据库安装
+systemctl start mariadb //启动
+mysql_secure_installation //初始化数据库
+systemctl enable mariadb //开机启动
+---拒绝登录的解决方法如下
+mysql -u root -p	//登录mysql
+use mysql;
+update user set plugin='' where user='root';
+flush privileges;
+exit
+----------------------------------------------------------------------
+netdiscover //pc-ip caxun
+netstat -anp //开启的端口查询
+systemctl start mysql //启动mysql
+for((i=9;i>0;i--));do && echo -n -e "$i\r" && sleep 1 && done

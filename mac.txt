@@ -1,0 +1,25 @@
+zzy@Kei:~$ sudo netdiscover
+
+ Currently scanning: 192.168.117.0/16   |   Screen View: Unique Hosts          
+                                                                               
+ 2 Captured ARP Req/Rep packets, from 2 hosts.   Total size: 84                
+ _____________________________________________________________________________
+   IP            At MAC Address     Count     Len  MAC Vendor / Hostname      
+ -----------------------------------------------------------------------------
+ 192.168.22.1    50:fa:84:63:4c:e2      1      42  TP-LINK TECHNOLOGIES CO.,LTD
+ 192.168.22.100  bc:54:36:43:c2:64      1      42  Apple, Inc.                 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
